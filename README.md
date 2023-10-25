@@ -20,31 +20,55 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Enable internet information services
 - Install web platform installer
 - Install mySQL: Setup username and password
-- Install C++ redistributable 
 - Configure permissions and install OS ticket
 
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/5o91XTQ.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+I enabled internet information services in order to create a web server that allows the computer to serve up websites. This is essential, it is basically the infrastructure that is required to run OS ticket.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/t1K50nN.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+The PHP manager is imperative for the OS ticket software to work correctly. Apart of the OS ticket software there is a special configuration that utilizes PHP apart of its installation process, it is a requirement for OS ticket to work. 
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/BVzumZW.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+When interacting with OS ticket there needs to be a database storage system in place. MySQL server is used to store application data, when an admin is creating and resolving tickets that information needs to be held.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/dX1XZ86.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+OS Ticket has been successfully installed.  
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/Lt3OIsL.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/rxD9UsT.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Manipulating the permissions to allow anyone to complete the setup of OS ticket, not only the admin.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/aru25pp.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Installing HeidiSQL in order to actually interact with the MySQL database. After completing this step, the prerequisites for install OS ticket is finally complete.
 </p>
 <br />
